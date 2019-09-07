@@ -11,16 +11,6 @@ The goal is to find homogeneous regions in the images which hopefully belong to 
 
 <p align = "center">
 <img width ="800" height="180", src = 
-https://user-images.githubusercontent.com/45757826/57579422-c972af00-749b-11e9-99ca-8847a548e730.png>
+https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book1.pdf>
 </p>
-
-# Table of Content
-- [Data Description](#data-description)
-- [Clustering Methods](#clustering-methods)
-  - [K Means](#k-means)
-  - [Gaussian Mixture Models](#gaussian-mixture-models)
-  - [Mean Shift](#mean-shift)
-  - [Modification](#modification)
-- [Results](#results)
-- [How To Use](#how-to-use)
 
