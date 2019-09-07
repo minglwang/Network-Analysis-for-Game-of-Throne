@@ -4,23 +4,17 @@ Game of Thrones is the hugely popular television series by HBO based on the (als
 The dataset is extracted using the bookworm and stored in CSV files which can be download from 
 https://github.com/mathbeveridge/asoiaf/tree/master/data.
 
-The data constitutes a network and is given as a text file describing the <em>edges</em> between characters, with some attributes attached to each edge.
+The data constitutes a network and is given as a text file describing the <em>edges</em> between characters, with some attributes attached to each edge. Let's start by loading in the data for the first book <em>A Game of Thrones</em> and inspect it.</p>
+## Import data from CSV files
 
 
-The goal is to find homogeneous regions in the images which hopefully belong to objects or object parts. Below is one of the test images and an example segmentation using K-means (In the right image, each segment is colored based on the average color within the segment).
+## 2. Time for some Network of Thrones
+<p>The resulting DataFrame <code>book1</code> has 5 columns: <code>Source</code>, <code>Target</code>, <code>Type</code>, <code>weight</code>, and <code>book</code>. Source and target are the two nodes that are linked by an edge. A network can have directed or undirected edges and in this network all the edges are undirected. The weight attribute of every edge tells us the number of interactions that the characters have had over the book, and the book column tells us the book number.</p>
+<p>Once we have the data loaded as a pandas DataFrame, it's time to create a network. We will use <code>networkx</code>, a network analysis library, and create a graph object for the first book.</p>
+
 
 <p align = "center">
-<img width ="800" height="180", src = 
-https://user-images.githubusercontent.com/45757826/57579422-c972af00-749b-11e9-99ca-8847a548e730.png>
+<img width ="800" height="180", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book1.pdf>
 </p>
 
-# Table of Content
-- [Data Description](#data-description)
-- [Clustering Methods](#clustering-methods)
-  - [K Means](#k-means)
-  - [Gaussian Mixture Models](#gaussian-mixture-models)
-  - [Mean Shift](#mean-shift)
-  - [Modification](#modification)
-- [Results](#results)
-- [How To Use](#how-to-use)
 
