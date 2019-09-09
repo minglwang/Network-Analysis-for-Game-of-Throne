@@ -8,9 +8,6 @@ The data constitutes a network and is given as a text file describing the edges 
 ## Network of Thrones
 <p>Let's start by loading in the data for the first book <em>A Game of Thrones</em> and inspect it.</p>
 <p>The resulting DataFrame <code>book1</code> has 5 columns: <code>Source</code>, <code>Target</code>, <code>Type</code>, <code>weight</code>, and <code>book</code>. Source and target are the two nodes that are linked by an edge. A network can have directed or undirected edges and in this network all the edges are undirected. The weight attribute of every edge tells us the number of interactions that the characters have had over the book, and the book column tells us the book number.</p>
-<p>Once we have the data loaded as a pandas DataFrame, it's time to create a network. We will use <code>networkx</code>, a network analysis library, and create a graph object for the first book.</p>
-
-
 
  index  | Source|Target | Type| weight | book 
 --- |---|---|---|---|---
@@ -20,13 +17,19 @@ The data constitutes a network and is given as a text file describing the edges 
 3   | Aegon-I-Targaryen|      Eddard-Stark  |Undirected|       4  | 1
 4   | Aemon-Targaryen-(Maester-Aemon)  | Alliser-Thorne  |Undirected |  4  | 1
 
+<p>Once we have the data loaded as a pandas DataFrame, it's time to create a network. We will use <code>networkx</code>, a network analysis library, and create a graph object for the first book.</p>
 
 <p align = "center">
 <img width ="600" height="600", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book1.png>
 
+## The evolution of story
 
+Along the evolution of the story, the co-occurence between different characters are changing. For example, the graph model of book 2 are given as follows.
 
-## The evolution of plot
+<p align = "center">
+<img width ="600" height="600", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book2.png>
+
+As demonstrated above, the key characters (nodes) changed, so did the interaction (edges) between the characters. some characters didn't occur in book 2, some characters which has close relations in book 1 decreased their interactions in book 2. The amount of increase/removal of nodes and edges are analyzed as follows.  
 
 <p align = "center">
 <img width ="400" height="300", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/relation_evolution.png>
