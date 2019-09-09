@@ -44,7 +44,6 @@ First, let's measure the importance of a node in a network by looking at the num
 
 [('Jon-Snow', 0.1962025316455696), ('Daenerys-Targaryen', 0.18354430379746836), ('Stannis-Baratheon', 0.14873417721518986), ('Tyrion-Lannister', 0.10443037974683544), ('Theon-Greyjoy', 0.10443037974683544), ('Cersei-Lannister', 0.08860759493670886), ('Barristan-Selmy', 0.07911392405063292), ('Hizdahr-zo-Loraq', 0.06962025316455696), ('Asha-Greyjoy', 0.056962025316455694), ('Melisandre', 0.05379746835443038)]
 
-## The evolution of character importance
 <p>According to degree centrality, the most important character in the first book is Eddard Stark but he is not even in the top 10 of the fifth book. The importance of characters changes over the course of five books because, you know, stuff happens... ;)</p>
 <p>Let's look at the evolution of degree centrality of a couple of characters like Eddard Stark, Jon Snow, and Tyrion, which showed up in the top 10 of degree centrality in the first book.</p>
 
@@ -77,4 +76,13 @@ https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Fig
 
 ## 9. Conclusion
 <p>We see a high correlation between these three measures for our character co-occurrence network.</p>
-<p>So we've been looking at different ways to find the important characters in the Game of Thrones co-occurrence network. According to degree centrality, Eddard Stark is the most important character initially in the books. But who is/are the most important character(s) in the fifth book according to these three measures? </p>
+<p>So we've been looking at different ways to find the important characters in the Game of Thrones co-occurrence network. According to degree centrality, Eddard Stark is the most important character initially in the books. But who is/are the most important character(s) in the fifth book according to these three measures? </p>  The answers are as follows:
+
+measure\ character|page rank| degree of centrality | betweeness centrality
+---|---|---|---
+|    |Jon-Snow|Stannis-Baratheon |Jon-Snow
+
+
+
+
+
