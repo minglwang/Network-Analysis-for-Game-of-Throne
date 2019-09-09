@@ -86,7 +86,7 @@ https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Fig
 
 measure \ character|page rank| degree of centrality | betweeness centrality
 ---|---|---|---
-Book 5    |Jon-Snow|Stannis-Baratheon |Jon-Snow
+Book 5 |Jon-Snow|Stannis-Baratheon |Jon-Snow
 
 
 
