@@ -32,7 +32,7 @@ Along the evolution of the story, the co-occurence between different characters 
 As demonstrated above, the key characters (nodes) changed, so did the interaction (edges) between the characters. some characters didn't occur in book 2, some characters which has close relations in book 1 decreased their interactions in book 2. The amount of increase/removal of nodes and edges are analyzed as follows.  
 
 <p align = "center">
-<img width ="400" height="300", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/relation_evolution.png>
+<img width ="500" height="300", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/relation_evolution.png>
 
 
 ## The most important character in Game of Thrones
@@ -49,7 +49,7 @@ First, let's measure the importance of a node in a network by looking at the num
 
 
 <p align = "center">
-<img width ="400" height="300", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/key_roles_evolution.png>
+<img width ="500" height="300", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/key_roles_evolution.png>
 
 <p>We can see that the importance of Eddard Stark dies off as the book series progresses. With Jon Snow, there is a drop in the fourth book but a sudden rise in the fifth book.</p>
 
