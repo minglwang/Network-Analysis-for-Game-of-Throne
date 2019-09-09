@@ -12,7 +12,7 @@ The data constitutes a network and is given as a text file describing the <em>ed
 
 
 <p align = "center">
-<img width ="800" height="800", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book1.png>
+<img width ="600" height="600", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book1.png>
 
 
 
