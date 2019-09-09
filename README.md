@@ -9,13 +9,15 @@ The data constitutes a network and is given as a text file describing the edges 
 <p>Let's start by loading in the data for the first book <em>A Game of Thrones</em> and inspect it.</p>
 <p>The resulting DataFrame <code>book1</code> has 5 columns: <code>Source</code>, <code>Target</code>, <code>Type</code>, <code>weight</code>, and <code>book</code>. Source and target are the two nodes that are linked by an edge. A network can have directed or undirected edges and in this network all the edges are undirected. The weight attribute of every edge tells us the number of interactions that the characters have had over the book, and the book column tells us the book number.</p>
 <p>Once we have the data loaded as a pandas DataFrame, it's time to create a network. We will use <code>networkx</code>, a network analysis library, and create a graph object for the first book.</p>
-                            Source              Target        Type  weight  book 
+|                 | Source|              Target      |  Type|  weight | book| 
+|：-------------- |-------|--------------------------|-------|--------|-----|
+0   | Addam-Marbrand  |   Jaime-Lannister  |Undirected   |    3  | 1|
+1   | Addam-Marbrand   |  Tywin-Lannister | Undirected   |    6  | 1|
+2  | Aegon-I-Targaryen | Daenerys-Targaryen | Undirected |      5  | 1|
+3   | Aegon-I-Targaryen  |      Eddard-Stark  |Undirected|       4  | 1|
+4 | Aemon-Targaryen-(Maester-Aemon)     | Alliser-Thorne  |Undirected |  4  | 1|
 
-0                   Addam-Marbrand     Jaime-Lannister  Undirected       3   1
-1                   Addam-Marbrand     Tywin-Lannister  Undirected       6   1
-2                Aegon-I-Targaryen  Daenerys-Targaryen  Undirected       5   1
-3                Aegon-I-Targaryen        Eddard-Stark  Undirected       4   1
-4  Aemon-Targaryen-(Maester-Aemon)      Alliser-Thorne  Undirected       4   1
+
 
 
 <p align = "center">
