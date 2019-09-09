@@ -19,7 +19,7 @@ The data constitutes a network and is given as a text file describing the <em>ed
 ## The evolution of plot
 
 <p align = "center">
-<img width ="800" height="800", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/relation_evolution.png>
+<img width ="400" height="300", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/relation_evolution.png>
 
 
 ## The most important character in Game of Thrones
@@ -37,7 +37,7 @@ First, let's measure the importance of a node in a network by looking at the num
 
 
 <p align = "center">
-<img width ="800" height="800", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/key_roles_evolution.png>
+<img width ="400" height="300", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/key_roles_evolution.png>
 
 <p>We can see that the importance of Eddard Stark dies off as the book series progresses. With Jon Snow, there is a drop in the fourth book but a sudden rise in the fifth book.</p>
 
@@ -46,14 +46,14 @@ First, let's measure the importance of a node in a network by looking at the num
 <p>Now let's look at various other measures like <em>betweenness centrality</em> and <em>PageRank</em> to find important characters in our Game of Thrones character co-occurrence network and see if we can uncover some more interesting facts about this network. Let's plot the evolution of betweenness centrality of this network over the five books. We will take the evolution of the top four characters of every book and plot it.</p>
 
 <p align = "center">
-<img width ="800" height="800", src = https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/Top_characters.png>
+<img width ="400" height="300", src = https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/Top_characters.png>
 
 ## 7. What does Google PageRank tell us about GoT?
 <p>We see a peculiar rise in the importance of Stannis Baratheon over the books. In the fifth book, he is significantly more important than other characters in the network, even though he is the third most important character according to degree centrality.</p>
 <p>PageRank was the initial way Google ranked web pages. It evaluates the inlinks and outlinks of webpages in the world wide web, which is, essentially, a directed network. Let's look at the importance of characters in the Game of Thrones network according to PageRank. </p>
 
 <p align = "center">
-<img width ="800" height="800", src =
+<img width ="400" height="300", src =
 https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/page_rank_evolution.png>
   
 ## 8. Correlation between different measures
