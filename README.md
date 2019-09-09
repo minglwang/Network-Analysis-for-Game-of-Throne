@@ -74,6 +74,7 @@ https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Fig
 <p>Let's look at the correlation between PageRank, betweenness centrality and degree centrality for the fifth book using Pearson correlation.</p>
 
  PageRank| betweenness centrality | degree centrality
+ ---|---|---
 	1.000000 	|0.793372 	|0.971493
 	0.793372 	|1.000000 |	0.833816
 	0.971493 	|0.833816| 	1.000000
