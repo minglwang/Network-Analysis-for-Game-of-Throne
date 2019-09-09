@@ -66,7 +66,7 @@ First, let's measure the importance of a node in a network by looking at the num
 <p>PageRank was the initial way Google ranked web pages. It evaluates the inlinks and outlinks of webpages in the world wide web, which is, essentially, a directed network. Let's look at the importance of characters in the Game of Thrones network according to PageRank. </p>
 
 <p align = "center">
-<img width ="400" height="300", src =
+<img width ="500" height="300", src =
 https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/page_rank_evolution.png>
   
 ## 8. Correlation between different measures
