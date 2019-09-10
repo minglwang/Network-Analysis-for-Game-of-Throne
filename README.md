@@ -20,14 +20,14 @@ The data constitutes a network and is given as a text file describing the edges 
 <p>Once we have the data loaded as a pandas DataFrame, it's time to create a network. We will use <code>networkx</code>, a network analysis library, and create a graph object for the first book.</p>
 
 <p align = "center">
-<img width ="400" height="400", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book1.png>
+<img width ="500" height="500", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book1.png>
 
 ## The evolution of story
 
 Along the evolution of the story, the co-occurence between different characters are changing. For example, the graph model of book 2 are given as follows.
 
 <p align = "center">
-<img width ="400" height="400", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book2.png>
+<img width ="500" height="500", src =https://github.com/minglwang/Network-Analysis-for-Game-of-Throne/blob/master/Figures/GM_book2.png>
 
 As demonstrated above, the key characters (nodes) changed, so did the interaction (edges) between the characters. some characters didn't occur in book 2, some characters which has close relations in book 1 decreased their interactions in book 2. The amount of increase/removal of nodes and edges are analyzed as follows.  
 
